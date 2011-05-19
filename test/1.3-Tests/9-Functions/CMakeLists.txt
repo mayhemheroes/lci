@@ -1,4 +1,9 @@
 add_subdirectory(1-VoidWithSideEffects)
+<<<<<<< HEAD:test/1.3-Tests/9-Functions/CMakeLists.txt
+=======
+add_subdirectory(10-TooFewArguments)
+add_subdirectory(11-EmptyBody)
+>>>>>>> 47301d8 (CMakeified everything. Most tests are working with the exception of 2.):test/1.2-Tests/9-Functions/CMakeLists.txt
 add_subdirectory(2-ReturnValue)
 add_subdirectory(3-VoidReturnValue)
 add_subdirectory(4-NilReturnValue)
@@ -7,5 +12,8 @@ add_subdirectory(6-DoubleRecursion)
 add_subdirectory(7-ExpressionArguments)
 add_subdirectory(8-VoidMustHaveNoArguments)
 add_subdirectory(9-TooManyArguments)
+<<<<<<< HEAD:test/1.3-Tests/9-Functions/CMakeLists.txt
 add_subdirectory(10-TooFewArguments)
 add_subdirectory(11-EmptyBody)
+=======
+>>>>>>> 47301d8 (CMakeified everything. Most tests are working with the exception of 2.):test/1.2-Tests/9-Functions/CMakeLists.txt

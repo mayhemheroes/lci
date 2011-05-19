@@ -1,2 +1,6 @@
 INCLUDE(AddLolTest)
+<<<<<<< HEAD:test/1.3-Tests/3-Types/5-String/2-Syntax/1-IgnoreContinuation/CMakeLists.txt
 ADD_LOL_TEST(1-IgnoreContinuation ERROR)
+=======
+Add_LOL_TEST(1-IgnoreContinuation)
+>>>>>>> 47301d8 (CMakeified everything. Most tests are working with the exception of 2.):test/1.2-Tests/3-Types/5-String/2-Syntax/1-IgnoreContinuation/CMakeLists.txt
