@@ -1,9 +1,7 @@
 add_subdirectory(1-VoidWithSideEffects)
 <<<<<<< HEAD:test/1.3-Tests/9-Functions/CMakeLists.txt
 =======
-add_subdirectory(10-TooFewArguments)
-add_subdirectory(11-EmptyBody)
->>>>>>> 47301d8 (CMakeified everything. Most tests are working with the exception of 2.):test/1.2-Tests/9-Functions/CMakeLists.txt
+>>>>>>> 72a524a (minor infrastructure updates)
 add_subdirectory(2-ReturnValue)
 add_subdirectory(3-VoidReturnValue)
 add_subdirectory(4-NilReturnValue)
@@ -16,4 +14,6 @@ add_subdirectory(9-TooManyArguments)
 add_subdirectory(10-TooFewArguments)
 add_subdirectory(11-EmptyBody)
 =======
->>>>>>> 47301d8 (CMakeified everything. Most tests are working with the exception of 2.):test/1.2-Tests/9-Functions/CMakeLists.txt
+add_subdirectory(10-TooFewArguments)
+add_subdirectory(11-EmptyBody)
+>>>>>>> 72a524a (minor infrastructure updates)
