@@ -198,8 +198,8 @@ static const char *keywords[] = {
  * Stores token data with semantic meaning.
  */
 typedef union {
-	long long i;   /**< Integer data. */
-	float f; /**< Decimal data. */
+	long long i; /**< Integer data. */
+	float f;     /**< Decimal data. */
 } TokenData;
 
 /**
