@@ -14,6 +14,21 @@ to be correct, portable, fast, and precisely documented.
   whenever possible to the extent that the above points are not compromised.
 
 - **Precisely documented**: lci uses Doxygen to generate literate code
+
+lci is a LOLCODE interpreter written in C and is designed to be correct,
+portable, fast, and precisely documented.
+
+- Correct: Every effort has been made to test lci's conformance to the LOLCODE
+  language specification. Unit tests come packaged with the lci source code.
+
+- Portable: lci follows the widely ported ANSI C specification allowing it to
+  compile on a broad range of systems.
+
+- Fast: Much effort has gone into producing simple and efficient code whenever
+  possible to the extent that the above points are not compromized.
+
+- Precisely documented: lci uses Doxygen to generate literate code
+>>>>>>> e4d6a8e (Make readme look better)
   documentation, browsable here.
 
 This project's homepage is at http://lolcode.org.  For help, visit
@@ -255,3 +270,4 @@ PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along with
 this program.  If not, see <http://www.gnu.org/licenses/>.
+>>>>>>> e4d6a8e (Make readme look better)
