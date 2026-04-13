@@ -1,13 +1,15 @@
-FROM --platform=linux/amd64 ubuntu:20.04 as builder
+FROM --platform=linux/amd64 ubuntu:24.04 AS builder
 
-RUN apt-get update
-RUN DEBIAN_FRONTEND=noninteractive apt-get install -y build-essential cmake
+RUN apt-get update && \
+    DEBIAN_FRONTEND=noninteractive apt-get install -y build-essential python3-pip libreadline-dev && \
+    pip3 install cmake --break-system-packages
 
 COPY . /repo
+RUN mkdir -p /repo/build
 WORKDIR /repo/build
 RUN cmake .. -DCMAKE_INSTALL_PREFIX=/install
-RUN make -j8
+RUN make -j$(nproc)
 RUN make install
 
-FROM ubuntu:20.04 as package
+FROM ubuntu:24.04
 COPY --from=builder /install /install

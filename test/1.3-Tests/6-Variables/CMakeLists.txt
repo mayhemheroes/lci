@@ -5,10 +5,7 @@ add_subdirectory(4-CaseSensitivity)
 add_subdirectory(5-UninitializedNil)
 add_subdirectory(6-Assignment)
 add_subdirectory(7-AssignmentSameVariable)
-<<<<<<< HEAD:test/1.3-Tests/6-Variables/CMakeLists.txt
 add_subdirectory(8-TypeInitialization)
 add_subdirectory(9-Deallocation)
 add_subdirectory(10-Indirect)
 add_subdirectory(11-AlternativeArticle)
-=======
->>>>>>> 72a524a (minor infrastructure updates)
