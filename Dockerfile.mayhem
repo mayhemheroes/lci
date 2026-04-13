@@ -12,4 +12,5 @@ RUN make -j$(nproc)
 RUN make install
 
 FROM ubuntu:24.04
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y libreadline8t64 && rm -rf /var/lib/apt/lists/*
 COPY --from=builder /install /install
